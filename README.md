@@ -34,7 +34,6 @@ public class Person {
     @Override
     public String toString() { return "name=" + name + ", age=" + age; }
 }
-
 ```
 
 The subclass `Teacher` overrides `getWeekendPlans()`:
@@ -108,7 +107,7 @@ Student state:name=Hao, age=24, favoriteSubject=Java programming
 ## Default No-Args Constructors
 
 Recall that Java generates a no-args constructor if a class does not explicitly
-define a constructor.  Let's update each class to add a
+define a constructor.  Let's update each class to add an
 explicit no-args constructor with a print
 statement to see how objects are created based on inheritance.
 
@@ -292,7 +291,7 @@ public class Main {
 ```
 
 Running the code shows the `Person(String name, int age)` constructor
-executing for the call `new Person("Kai", 32);`.
+executing the call `new Person("Kai", 32);`.
 
 However, notice the no-args `Person()` constructor is still called by calls
 `new Teacher()` and `new Student()`.  That is because the first line
