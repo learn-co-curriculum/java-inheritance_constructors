@@ -420,6 +420,7 @@ Executing the `main` method results in the output:
 
 ## Final Code Check
 
+
 We'll remove the print statements in the constructors,
 since they were just for demonstration purposes.
 
@@ -428,6 +429,8 @@ not needed by this application.  But we'll leave them
 as an example of constructor overloading.
 
 The final version of the class hierarchy is:
+
+![person hierarchy with constructors](https://curriculum-content.s3.amazonaws.com/6677/pillars/person_hierarchy_constructors2.png)
 
 ```java
 public class Person {
