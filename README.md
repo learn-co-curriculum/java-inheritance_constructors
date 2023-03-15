@@ -244,7 +244,7 @@ or press the "Resume Program" button to execute the rest of the code.
 ## Calling superclass constructors with arguments
 
 The no-args constructors initialize the fields to their default values.
-Let's update `Person` to add a constructor with parameters so we can initialize
+Let's update `Person` to add a constructor with parameters to initialize
 the fields to specific values.  We'll add a print statement in the constructor
 as well just so we can see when it is called, versus the no-args constructor.
 Defining multiple constructors is an example of **method overloading**,
@@ -601,7 +601,7 @@ public class PerishableItem extends GroceryItem {
 The error arises from the superclass constructor call `super();`
 Because `GroceryItem` defines a constructor with arguments,
 it **does not** generate a no-args constructor for `GroceryItem`.
-Thus the call `super()` causes a compile-time error.
+Thus, the call `super()` causes a compile-time error.
 
 We would either need to add a no-args constructor to `GroceryItem`
 or better yet update `PerishableItem` to have a constructor with arguments
