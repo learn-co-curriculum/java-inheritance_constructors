@@ -18,7 +18,8 @@ Recall the `Person` class hierarchy from the lesson on method overriding.
 ![person uml hierarchy](https://curriculum-content.s3.amazonaws.com/6677/pillars/person_hierarchy_constructors.png)
 
 The `Person` class defines fields `name` and `age`, along with methods that access and mutate
-the fields.  
+the fields.
+
 ```java
 public class Person {
 
